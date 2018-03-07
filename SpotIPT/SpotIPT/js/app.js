@@ -23,11 +23,11 @@ document.addEventListener('DOMContentLoaded', function main(e) {
 
                 var titulo = cd.getAttribute('titulo');
 
-                var p = document.createElement('p');
+                var tituloContainer = document.createElement('p');
 
-                p.textContent = titulo;
+                tituloContainer.textContent = titulo;
 
-                document.body.appendChild(p);
+                document.body.appendChild(tituloContainer);
             }
 
         } else {  // Erro
